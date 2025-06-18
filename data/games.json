@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "title": "Cyberpunk 2077",
+    "price": 899,
+    "platform": "Steam",
+    "genre": "RPG",
+    "rating": 4.5,
+    "image": "images/cyberpunk.jpg",
+    "description": "Це відкритий світ у стилі киберпанк з безліччю можливостей для дослідження.",
+    "inStock": true,
+    "discount": 25
+  },
+  {
+    "id": 2,
+    "title": "The Witcher 3",
+    "price": 599,
+    "platform": "GOG",
+    "genre": "RPG",
+    "rating": 4.8,
+    "image": "images/witcher3.jpg",
+    "description": "Епічна RPG пригода у світі Відьмака. Величезний відкритий світ з безліччю квестів та історій.",
+    "inStock": true,
+    "discount": 0
+  },
+  {
+    "id": 3,
+    "title": "GTA V",
+    "price": 749,
+    "platform": "Steam",
+    "genre": "Action",
+    "rating": 4.6,
+    "image": "images/gtav.jpg",
+    "description": "Культова гра про пригоди в Лос-Сантосі. Відкритий світ, безліч можливостей та онлайн режим.",
+    "inStock": true,
+    "discount": 15
+  },
+  {
+    "id": 4,
+    "title": "Red Dead Redemption 2",
+    "price": 999,
+    "platform": "Steam",
+    "genre": "Action",
+    "rating": 4.7,
+    "image": "images/rdr2.jpg",
+    "description": "Вестерн епік від Rockstar Games. Неймовірно деталізований світ Дикого Заходу.",
+    "inStock": true,
+    "discount": 30
+  }
+]
