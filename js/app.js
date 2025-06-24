@@ -5,14 +5,13 @@ function App() {
   const [usersDB, setUsersDB] = React.useState({});
   const [quizQuestions, setQuizQuestions] = React.useState([]);
   const [currentUser, setCurrentUser] = React.useState(null);
-  const [activeView, setActiveView] = React.useState('games'); // 'games', 'quiz', 'profile'
+  const [activeView, setActiveView] = React.useState('games');
   const [showLoginModal, setShowLoginModal] = React.useState(false);
   const [showGameDetails, setShowGameDetails] = React.useState(null);
   const [showProfileModal, setShowProfileModal] = React.useState(false);
   React.useEffect(() => {
     const fetchData = async () => {
       try {
-        // Перевіряємо localStorage. Якщо даних немає, завантажуємо з JSON
         const localUsers = localStorage.getItem('gamestore_users');
         const localKeys = localStorage.getItem('gamestore_keys');
 
@@ -274,7 +273,7 @@ function GameDetailsModal({ game, show, onClose, user, onPurchase, keysDB, saveK
   const [purchaseStatus, setPurchaseStatus] = React.useState(null);
   const [isProcessing, setIsProcessing] = React.useState(false);
   React.useEffect(() => {
-    setPurchaseStatus(null); // Скидання статусу при відкритті нового вікна
+    setPurchaseStatus(null);
   }, [game]);
   if (!show || !game) return null;
   const finalPrice = Math.round(game.price * (1 - game.discount / 100));
